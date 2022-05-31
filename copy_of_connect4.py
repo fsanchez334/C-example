@@ -34,6 +34,7 @@ class Connect4:
       self.connect = 4
       self.legal_players = ["X", "O"]
       self.reset()
+     hey i am working LOL
         
   def reset(self):
       self.board = [[" " for _ in range(self.width)] for _ in range(self.height)]
